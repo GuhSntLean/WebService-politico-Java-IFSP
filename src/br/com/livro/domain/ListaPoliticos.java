@@ -12,7 +12,7 @@ public class ListaPoliticos implements Serializable {
 	private List<Politico> politicos;
 	@XmlElement(name="politico")
 	public List<Politico> getPoliticos(){
-		System.out.println(“Mudança para deste de pull request”);
+		System.out.println(“Mudança para tag”);
 		return politicos;
 	}
 	public void setPoliticos(List<Politico> politicos) {
